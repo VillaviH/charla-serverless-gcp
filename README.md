@@ -1,7 +1,6 @@
 # Despliega como Senior, paga como estudiante
 ### Serverless en GCP: Cloud Functions + Firestore + Cloud Storage + Terraform
 
-> Versión GCP de la charla presentada para la Universidad de Cuenca · 2026  
 > AWS User Group Quito
 
 ---
@@ -207,5 +206,6 @@ terraform apply \
 ## Autor
 
 **Hernán Villavicencio**  
-AWS User Group Quito  
+AWS Community Builder
+Lead AWS User Group Quito
 [linkedin.com/in/hvillavicencio](https://linkedin.com/in/hvillavicencio)
