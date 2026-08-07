@@ -1,7 +1,7 @@
 # Despliega como Senior, paga como estudiante
 ### Serverless en GCP: Cloud Functions + Firestore + Cloud Storage + Terraform
 
-> AWS User Group Quito
+> AWS Community Builder
 
 ---
 
