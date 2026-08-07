@@ -206,6 +206,6 @@ terraform apply \
 ## Autor
 
 **Hernán Villavicencio**  
-AWS Community Builder
-Lead AWS User Group Quito
+AWS Community Builder |
+Lead AWS User Group Quito |
 [linkedin.com/in/hvillavicencio](https://linkedin.com/in/hvillavicencio)
