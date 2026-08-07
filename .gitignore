@@ -1,0 +1,61 @@
+# ─────────────────────────────────────────
+# Terraform
+# ─────────────────────────────────────────
+# State: NUNCA subir — puede contener datos sensibles
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Directorio de trabajo y plugins del provider (pesado, regenerable con `terraform init`)
+**/.terraform/*
+.terraform.tfstate.lock.info
+
+# Variables con posibles valores sensibles
+*.tfvars
+*.tfvars.json
+
+# Artefacto de código empaquetado (lo genera Terraform en cada apply)
+function.zip
+
+# NOTA: .terraform.lock.hcl SÍ se versiona (fija versiones del provider)
+
+# ─────────────────────────────────────────
+# Credenciales y secretos (defensa en profundidad)
+# ─────────────────────────────────────────
+*.pem
+*.key
+*.p12
+credentials*.json
+service-account*.json
+.env
+.env.*
+!.env.example
+gha-creds-*.json
+
+# ─────────────────────────────────────────
+# Python (script del diagrama)
+# ─────────────────────────────────────────
+.venv/
+.venv-diagrams/
+__pycache__/
+*.pyc
+
+# ─────────────────────────────────────────
+# Documentos / temporales de oficina
+# ─────────────────────────────────────────
+~$*.docx
+~$*.xlsx
+*.tmp
+
+# ─────────────────────────────────────────
+# Tooling local (Kiro / editor / SO)
+# ─────────────────────────────────────────
+.kiro/
+.DS_Store
+.vscode/
+.idea/
+
+# ─────────────────────────────────────────
+# Material de difusión (artículo, Word, diagrama) — no es de interés para la comunidad
+# ─────────────────────────────────────────
+articulo/
